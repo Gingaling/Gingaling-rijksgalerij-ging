@@ -2,12 +2,14 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-import './Navigation.css'
+import './Navigation.css';
 
 const Navigation = () => {
-	return <Navbar className="BarNav" collapseOnSelect variant="light" expand="md">
+	return (
+		<Navbar className="BarNav" collapseOnSelect variant="light" expand="md">
 			<div>
-				<Navbar.Brand className="brand" href="https://i.imgur.com/13U8rKd.png" as={Link} to="/home">
+				<Navbar.Brand className="brand"
+					as={Link} to="/home">
 					Rijksgalerij-GING
 				</Navbar.Brand>
 			</div>
@@ -29,8 +31,8 @@ const Navigation = () => {
 				</Nav>
 			</Navbar.Collapse>
 			<img className="Wormy" alt="" src="https://i.imgur.com/QySQprg.png" />
-				
-		</Navbar>;
+		</Navbar>
+	);
 };
 
 export default Navigation;
