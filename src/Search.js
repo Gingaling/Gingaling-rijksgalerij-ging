@@ -67,7 +67,7 @@ function Search({ searchOptions }) {
 				<>
                 <div className='SearchStyle'>
 					<p >
-						Showing results for{' '}
+						Showing { galleryImages.length } results for{' '}
 						<span style={{ fontStyle: 'italic' }}>{lastSearch}:</span>{' '}
 					</p>
                 </div>
