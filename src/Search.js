@@ -5,19 +5,24 @@ import SearchForm from './SearchForm';
 import Container from 'react-bootstrap/Container';
 import './Search.css'
 
+
 function Search({ searchOptions }) {
 	const [searchParams, setSearchParams] = useSearchParams();
 	const requestedSearch = searchParams.get('searchString');
+	// eslint-disable-next-line
 	const [searchString, setSearchString] = useState(requestedSearch || '');
+	// eslint-disable-next-line
 	const [lastSearch, setLastSearch] = useState('');
-    const [searchLength, setSearchLength] = useState(0);
+    // eslint-disable-next-line
+	const [searchLength, setSearchLength] = useState(0);
+	// eslint-disable-next-line
 	const [galleryImages, setGalleryImages] = useState([]);
 	const [search, setSearch] = useState(false);
-    
     const [inputs, setInputs] = useState({searchString:"", searchLength:0});
 	
+	
     const handleChange = (event) => {
-        const name = event.target.name;
+		const name = event.target.name;
         const value = event.target.value;
         setInputs(values => ({...values, [name]: value}))
     }
