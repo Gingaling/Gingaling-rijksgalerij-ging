@@ -39,7 +39,7 @@ const Detail = ({ error, objectDetail, show, handleClose }) => {
 	} else {
 		return (
 			<Modal
-				size="xl"
+				size="l"
 				show={show}
 				onHide={handleClose}
 				className="modal-container">
