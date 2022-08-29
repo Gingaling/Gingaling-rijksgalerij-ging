@@ -1,5 +1,5 @@
-# Rijksgalerij-GING (https://strong-licorice-0b4b3e.netlify.app
-) (deployed at https://strong-licorice-0b4b3e.netlify.app)
+# Rijksgalerij-GING
+(deployed at https://strong-licorice-0b4b3e.netlify.app)
 
 This front-end application exhibits Dutch and international masterpieces held by Amsterdam's Rijksgalerij (or Rijks Museum), using the institution's [API](https://data.rijksmuseum.nl/
 ). A user can perform a search of the museum holdings if s/he has a favored Dutch artist as well as indicate the desired number of results to be returned from the search. The actual number of results found will also be displayed. In addition, there is functionality to learn more about each individual piece of art.
